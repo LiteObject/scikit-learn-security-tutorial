@@ -119,7 +119,7 @@ Learn how to convert raw network data into machine learning features:
 - **Data Generation**: Create realistic synthetic training data
 - **Device Patterns**: Model different types of network devices
 
-**Key Concept:** Feature engineering is the most important part of machine learning!
+**Key Concept:** [Feature engineering](https://en.wikipedia.org/wiki/Feature_engineering) is the most important part of machine learning!
 
 ### **🤖 Step 2: Building ML Models** (`model_trainer.py`)
 Build three different types of machine learning models:
