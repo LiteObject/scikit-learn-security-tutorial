@@ -1,4 +1,4 @@
-# Scikit-Learn Tutorial: Building Network Security AI Models
+# Scikit-Learn Network Security Tutorial: Building Network Security AI Models
 
 **Learn Machine Learning by Building Real Network Security Models**
 
@@ -8,16 +8,36 @@ This tutorial teaches you scikit-learn fundamentals by creating the same AI mode
 
 ```
 scikit-learn-security-tutorial/
-├── 📄 README.md                   # This tutorial guide
-├── 🐍 data_generator.py           # Network data generation and feature engineering
-├── 🤖 model_trainer.py            # Machine learning model training
-├── 📊 model_evaluator.py          # Advanced analysis and visualizations
-├── 🎯 network_security_ml.py      # Main application with CLI
-├── 🧪 test_components.py          # Component testing script
-├── ⚙️ setup.py                    # Automated setup and verification
-├── 📦 requirements.txt            # Python dependencies
-├── 🪟 setup_windows.bat           # Windows setup script
-└── 🐧 setup_unix.sh               # Unix/Linux/macOS setup script
+├── 📄 README.md                           # This tutorial guide
+├── � docs/                               # Documentation folder
+│   ├── 📚 supervised-vs-unsupervised.md  # ML concepts explained simply
+│   └── 🎯 classification-vs-regression.md # Classification vs Regression guide
+├── 🐍 data_generator.py                   # Network data generation and feature engineering
+├── 🤖 model_trainer.py                    # Machine learning model training
+├── 📊 model_evaluator.py                  # Advanced analysis and visualizations
+├── 🎯 network_security_ml.py              # Main application with CLI
+├── 🧪 test_components.py                  # Component testing script
+├── ⚙️ setup.py                            # Automated setup and verification
+├── 📦 requirements.txt                    # Python dependencies
+├── 🪟 setup_windows.bat                   # Windows setup script
+└── 🐧 setup_unix.sh                       # Unix/Linux/macOS setup script
+```
+
+## 📁 **Project Structure**
+
+```
+scikit-learn-security-tutorial/
+├── 📄 README.md                           # This tutorial guide
+├── � supervised-vs-unsupervised.md       # ML concepts explained simply
+├── �🐍 data_generator.py                   # Network data generation and feature engineering
+├── 🤖 model_trainer.py                    # Machine learning model training
+├── 📊 model_evaluator.py                  # Advanced analysis and visualizations
+├── 🎯 network_security_ml.py              # Main application with CLI
+├── 🧪 test_components.py                  # Component testing script
+├── ⚙️ setup.py                            # Automated setup and verification
+├── 📦 requirements.txt                    # Python dependencies
+├── 🪟 setup_windows.bat                   # Windows setup script
+└── 🐧 setup_unix.sh                       # Unix/Linux/macOS setup script
 ```
 
 ## 🎯 **What You'll Learn**
@@ -28,6 +48,10 @@ scikit-learn-security-tutorial/
 - ✅ **Model Training**: Fitting models to data
 - ✅ **Model Evaluation**: Testing and validation
 - ✅ **Real-World Application**: Network security use case
+
+> 📚 **New to Machine Learning?** Read our [**Supervised vs Unsupervised Learning Guide**](docs/supervised-vs-unsupervised.md) for a simple explanation of core ML concepts!
+
+> 🎯 **Want to understand predictions?** Check out our [**Classification vs Regression Guide**](docs/classification-vs-regression.md) to learn when to use each approach!
 
 ## 📋 **Prerequisites**
 
@@ -105,6 +129,8 @@ python test_components.py
 
 | File | Purpose | Key Features |
 |------|---------|--------------|
+| `docs/supervised-vs-unsupervised.md` | **ML Concepts** | Simple explanations of supervised vs unsupervised learning |
+| `docs/classification-vs-regression.md` | **Prediction Types** | When to use classification vs regression with examples |
 | `data_generator.py` | **Data Creation** | Generates realistic network device data, feature engineering |
 | `model_trainer.py` | **ML Training** | 3 models: Classification, Regression, Anomaly Detection |
 | `model_evaluator.py` | **Analysis** | Confusion matrices, feature importance, learning curves |
@@ -128,6 +154,7 @@ Build three different types of machine learning models:
    - **Purpose**: Identify device types (IoT, Server, PC, etc.)
    - **Algorithm**: Random Forest Classifier
    - **Output**: Device category with confidence score
+   - **Learn more**: [Classification vs Regression Guide](docs/classification-vs-regression.md)
 
 2. **🕵️ Anomaly Detection** (Isolation Forest)  
    - **Purpose**: Find unusual/suspicious network behavior
@@ -138,6 +165,7 @@ Build three different types of machine learning models:
    - **Purpose**: Predict security risk score (0.0 to 1.0)
    - **Algorithm**: Random Forest Regressor
    - **Output**: Continuous risk score
+   - **Learn more**: [Classification vs Regression Guide](docs/classification-vs-regression.md)
 
 ### **📊 Step 3: Model Analysis** (`model_evaluator.py`)
 Understand how well your models perform:
@@ -282,8 +310,8 @@ print(f"Device: {get_device_name(device_type)}, Risk: {risk_score:.3f}")
 After completing this tutorial, you'll understand:
 
 ### **🧠 Machine Learning Concepts**
-- **Supervised vs Unsupervised Learning**
-- **Classification vs Regression** 
+- **Supervised vs Unsupervised Learning** - [📚 Read detailed explanation](docs/supervised-vs-unsupervised.md)
+- **Classification vs Regression** - [🎯 Understanding prediction types](docs/classification-vs-regression.md)
 - **Feature Engineering** - Converting raw data to ML features
 - **Training vs Testing** - Avoiding overfitting
 - **Model Evaluation** - Accuracy, precision, recall
