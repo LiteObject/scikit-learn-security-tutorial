@@ -202,8 +202,8 @@ Now that you understand the difference:
 ## 🔗 Related Resources
 
 - 📚 [**Supervised vs Unsupervised Learning**](supervised-vs-unsupervised.md) - Learn about the bigger picture
+- 🔧 [**Feature Engineering**](feature-engineering.md) - How to prepare data for both classification and regression
 - 🎯 [**Main Tutorial**](../README.md) - Build real classification and regression models
-- 📊 **Feature Engineering** - How to prepare data for both types of models
 
 ---
 

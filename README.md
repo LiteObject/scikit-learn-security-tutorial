@@ -1,4 +1,7 @@
-# Scikit-Learn Network Security Tutorial: Building Network Security AI Models
+# Scikit-Le├── 📁 docs/                               # Documentation folder
+│   ├── 📚 supervised-vs-unsupervised.md  # ML concepts explained simply
+│   ├── 🎯 classification-vs-regression.md # Classification vs Regression guide
+│   └── 🔧 feature-engineering.md         # Feature engineering fundamentals Network Security Tutorial: Building Network Security AI Models
 
 **Learn Machine Learning by Building Real Network Security Models**
 
@@ -52,6 +55,8 @@ scikit-learn-security-tutorial/
 > 📚 **New to Machine Learning?** Read our [**Supervised vs Unsupervised Learning Guide**](docs/supervised-vs-unsupervised.md) for a simple explanation of core ML concepts!
 
 > 🎯 **Want to understand predictions?** Check out our [**Classification vs Regression Guide**](docs/classification-vs-regression.md) to learn when to use each approach!
+
+> 🔧 **Curious about data preparation?** Our [**Feature Engineering Guide**](docs/feature-engineering.md) shows how to turn raw data into AI-ready features!
 
 ## 📋 **Prerequisites**
 
@@ -131,6 +136,7 @@ python test_components.py
 |------|---------|--------------|
 | `docs/supervised-vs-unsupervised.md` | **ML Concepts** | Simple explanations of supervised vs unsupervised learning |
 | `docs/classification-vs-regression.md` | **Prediction Types** | When to use classification vs regression with examples |
+| `docs/feature-engineering.md` | **Data Preparation** | Transform raw data into AI-ready features |
 | `data_generator.py` | **Data Creation** | Generates realistic network device data, feature engineering |
 | `model_trainer.py` | **ML Training** | 3 models: Classification, Regression, Anomaly Detection |
 | `model_evaluator.py` | **Analysis** | Confusion matrices, feature importance, learning curves |
@@ -145,7 +151,7 @@ Learn how to convert raw network data into machine learning features:
 - **Data Generation**: Create realistic synthetic training data
 - **Device Patterns**: Model different types of network devices
 
-**Key Concept:** [Feature engineering](https://en.wikipedia.org/wiki/Feature_engineering) is the most important part of machine learning!
+**Key Concept:** [Feature engineering](docs/feature-engineering.md) is the most important part of machine learning!
 
 ### **🤖 Step 2: Building ML Models** (`model_trainer.py`)
 Build three different types of machine learning models:
@@ -312,6 +318,7 @@ After completing this tutorial, you'll understand:
 ### **🧠 Machine Learning Concepts**
 - **Supervised vs Unsupervised Learning** - [📚 Read detailed explanation](docs/supervised-vs-unsupervised.md)
 - **Classification vs Regression** - [🎯 Understanding prediction types](docs/classification-vs-regression.md)
+- **Feature Engineering** - [🔧 Preparing data for AI](docs/feature-engineering.md)
 - **Feature Engineering** - Converting raw data to ML features
 - **Training vs Testing** - Avoiding overfitting
 - **Model Evaluation** - Accuracy, precision, recall
@@ -381,6 +388,9 @@ Now that you understand the basics, try building models for different problems:
 3. **🖼️ Image Classification** - Classify handwritten digits
 4. **💬 Sentiment Analysis** - Analyze text sentiment
 5. **🏥 Medical Diagnosis** - Predict disease from symptoms
+6. **🛒 Recommendation System** - Suggest products to users
+
+💡 **Pro tip**: For each project, start with our [**Feature Engineering Guide**](docs/feature-engineering.md) to learn how to prepare your data!
 6. **🛒 Recommendation System** - Suggest products to users
 
 ## 🛠️ **Troubleshooting**

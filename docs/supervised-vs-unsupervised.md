@@ -215,8 +215,10 @@ In our **Network Security Tutorial**, we use **both types**:
 Now that you understand the basics:
 
 1. **🎯 Try the tutorial** - See both types in action with network security
-2. **🔬 Experiment** - Change the code to try different approaches  
-3. **🌟 Apply it** - Think about your own projects that could use ML
+2. **� Learn data preparation** - Check out our [**Feature Engineering Guide**](feature-engineering.md)
+3. **📊 Understand predictions** - Read our [**Classification vs Regression Guide**](classification-vs-regression.md)
+4. **�🔬 Experiment** - Change the code to try different approaches  
+5. **🌟 Apply it** - Think about your own projects that could use ML
 
 **Remember:** 
 - **Supervised = Teaching with examples and answers**
