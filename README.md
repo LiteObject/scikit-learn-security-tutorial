@@ -1,7 +1,4 @@
-# Scikit-Le├── 📁 docs/                               # Documentation folder
-│   ├── 📚 supervised-vs-unsupervised.md  # ML concepts explained simply
-│   ├── 🎯 classification-vs-regression.md # Classification vs Regression guide
-│   └── 🔧 feature-engineering.md         # Feature engineering fundamentals Network Security Tutorial: Building Network Security AI Models
+# Scikit-Learn Network Security Tutorial: Building Network Security AI Models
 
 **Learn Machine Learning by Building Real Network Security Models**
 
@@ -12,27 +9,11 @@ This tutorial teaches you scikit-learn fundamentals by creating the same AI mode
 ```
 scikit-learn-security-tutorial/
 ├── 📄 README.md                           # This tutorial guide
-├── � docs/                                # Documentation folder
-│   ├── 📚 supervised-vs-unsupervised.md   # ML concepts explained simply
-│   └── 🎯 classification-vs-regression.md # Classification vs Regression guide
+├── 📁 docs/                               # Documentation folder
+│   ├── 📚 supervised-vs-unsupervised.md  # ML concepts explained simply
+│   ├── 🎯 classification-vs-regression.md # Classification vs Regression guide
+│   └── � feature-engineering.md         # Feature engineering fundamentals
 ├── 🐍 data_generator.py                   # Network data generation and feature engineering
-├── 🤖 model_trainer.py                    # Machine learning model training
-├── 📊 model_evaluator.py                  # Advanced analysis and visualizations
-├── 🎯 network_security_ml.py              # Main application with CLI
-├── 🧪 test_components.py                  # Component testing script
-├── ⚙️ setup.py                            # Automated setup and verification
-├── 📦 requirements.txt                    # Python dependencies
-├── 🪟 setup_windows.bat                   # Windows setup script
-└── 🐧 setup_unix.sh                       # Unix/Linux/macOS setup script
-```
-
-## 📁 **Project Structure**
-
-```
-scikit-learn-security-tutorial/
-├── 📄 README.md                           # This tutorial guide
-├── � supervised-vs-unsupervised.md        # ML concepts explained simply
-├── �🐍 data_generator.py                 # Network data generation and feature engineering
 ├── 🤖 model_trainer.py                    # Machine learning model training
 ├── 📊 model_evaluator.py                  # Advanced analysis and visualizations
 ├── 🎯 network_security_ml.py              # Main application with CLI
@@ -143,7 +124,9 @@ python test_components.py
 | `network_security_ml.py` | **Main App** | CLI interface, interactive mode, custom testing |
 | `test_components.py` | **Testing** | Verify all components work correctly |
 
-## � **Tutorial Learning Path**
+## 📚 **Tutorial Learning Path**
+
+> 💡 **Before you start:** If you're new to machine learning concepts, check out our [**Supervised vs Unsupervised Learning Guide**](docs/supervised-vs-unsupervised.md) for easy-to-understand explanations!
 
 ### **🎯 Step 1: Understanding the Data** (`data_generator.py`)
 Learn how to convert raw network data into machine learning features:
@@ -319,7 +302,6 @@ After completing this tutorial, you'll understand:
 - **Supervised vs Unsupervised Learning** - [📚 Read detailed explanation](docs/supervised-vs-unsupervised.md)
 - **Classification vs Regression** - [🎯 Understanding prediction types](docs/classification-vs-regression.md)
 - **Feature Engineering** - [🔧 Preparing data for AI](docs/feature-engineering.md)
-- **Feature Engineering** - Converting raw data to ML features
 - **Training vs Testing** - Avoiding overfitting
 - **Model Evaluation** - Accuracy, precision, recall
 
@@ -391,7 +373,6 @@ Now that you understand the basics, try building models for different problems:
 6. **🛒 Recommendation System** - Suggest products to users
 
 💡 **Pro tip**: For each project, start with our [**Feature Engineering Guide**](docs/feature-engineering.md) to learn how to prepare your data!
-6. **🛒 Recommendation System** - Suggest products to users
 
 ## 🛠️ **Troubleshooting**
 
@@ -439,18 +420,6 @@ pip install -r requirements.txt
 - Kaggle competitions
 - UCI Machine Learning Repository
 - scikit-learn built-in datasets
-
----
-
-## 🎯 **Challenge: Build Your Own Model**
-
-Now that you understand the basics, try building a model for a different problem:
-
-1. **Email Spam Detection** - Classify emails as spam/not spam
-2. **Stock Price Prediction** - Predict stock movements
-3. **Image Classification** - Classify handwritten digits
-4. **Sentiment Analysis** - Analyze text sentiment
-
 
 ---
 
