@@ -8,7 +8,7 @@ This tutorial teaches you scikit-learn fundamentals by creating the same AI mode
 
 ```
 scikit-learn-security-tutorial/
-├── 📄 README.md                    # This tutorial guide
+├── 📄 README.md                   # This tutorial guide
 ├── 🐍 data_generator.py           # Network data generation and feature engineering
 ├── 🤖 model_trainer.py            # Machine learning model training
 ├── 📊 model_evaluator.py          # Advanced analysis and visualizations
