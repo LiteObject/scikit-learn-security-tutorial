@@ -10,9 +10,9 @@ This tutorial teaches you scikit-learn fundamentals by creating the same AI mode
 scikit-learn-security-tutorial/
 ├── 📄 README.md                           # This tutorial guide
 ├── 📁 docs/                               # Documentation folder
-│   ├── 📚 supervised-vs-unsupervised.md  # ML concepts explained simply
+│   ├── 📚 supervised-vs-unsupervised.md   # ML concepts explained simply
 │   ├── 🎯 classification-vs-regression.md # Classification vs Regression guide
-│   └── � feature-engineering.md         # Feature engineering fundamentals
+│   └── � feature-engineering.md           # Feature engineering fundamentals
 ├── 🐍 data_generator.py                   # Network data generation and feature engineering
 ├── 🤖 model_trainer.py                    # Machine learning model training
 ├── 📊 model_evaluator.py                  # Advanced analysis and visualizations
