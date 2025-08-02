@@ -174,11 +174,6 @@ The concepts you learn here work for pretty much any machine learning problem.
 - [Classification vs Regression](docs/classification-vs-regression.md) - when to use each approach
 - [Feature Engineering](docs/feature-engineering.md) - how to prepare your data
 
-**Want to go deeper?**
-- "Hands-On Machine Learning" by Aurélien Géron (excellent practical book)
-- Andrew Ng's Coursera course (the classic)
-- Kaggle Learn (free bite-sized courses)
-
 ---
 
 That's it. Have fun building AI models that actually do something useful.
