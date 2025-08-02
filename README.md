@@ -4,6 +4,41 @@
 
 This tutorial teaches you scikit-learn fundamentals by creating the same AI models used in [NetGuardian-AI](https://github.com/LiteObject/NetGuardian-AI). You'll build three different types of machine learning models from scratch and understand how they work together for network security analysis.
 
+## 🤖 **What is Scikit-Learn?**
+
+Think of **scikit-learn** as a **toolbox full of AI building blocks** for Python. Just like how you use different tools to build a house (hammer, screwdriver, saw), scikit-learn gives you different tools to build artificial intelligence:
+
+### 🧰 **What's in the Toolbox?**
+- **🎯 Classifiers** - Sort things into categories (like sorting emails into spam/not spam)
+- **📈 Regressors** - Predict numbers (like predicting house prices or risk scores)
+- **🕵️ Anomaly Detectors** - Find unusual patterns (like detecting suspicious network activity)
+- **🔧 Data Processors** - Clean and prepare your data for AI
+
+### 🍳 **Why Scikit-Learn is Perfect for Beginners**
+- **Simple to use** - Just a few lines of code to build AI models
+- **Well-documented** - Excellent examples and explanations
+- **Batteries included** - Everything you need in one package
+- **Industry standard** - Used by companies worldwide
+
+### 💡 **Real-World Example**
+```python
+# This is how easy it is to build AI with scikit-learn!
+from sklearn.ensemble import RandomForestClassifier
+
+# Create an AI model
+model = RandomForestClassifier()
+
+# Teach it with examples
+model.fit(training_data, answers)
+
+# Make predictions on new data
+prediction = model.predict(new_data)
+```
+
+**In this tutorial, you'll use scikit-learn to build real AI models that can identify different types of network devices and detect security threats - just like the tools used by cybersecurity professionals!**
+
+---
+
 ## 📁 **Project Structure**
 
 ```
