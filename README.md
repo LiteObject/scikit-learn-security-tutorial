@@ -174,6 +174,9 @@ The concepts you learn here work for pretty much any machine learning problem.
 - [Classification vs Regression](docs/classification-vs-regression.md) - when to use each approach
 - [Feature Engineering](docs/feature-engineering.md) - how to prepare your data
 
+**Want to learn more about scikit-learn?**
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/) - official documentation with tutorials and API reference
+
 ---
 
 That's it. Have fun building AI models that actually do something useful.
