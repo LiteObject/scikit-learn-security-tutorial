@@ -309,10 +309,6 @@ class NetworkSecurityMLTutorial:
 
     def run_complete_tutorial(self):
         """Run the complete tutorial"""
-        print("🎓 SCIKIT-LEARN NETWORK SECURITY TUTORIAL")
-        print("🤖 Learn ML by Building Real AI Models!")
-        print("=" * 60)
-
         # Step 1: Data
         self.step_1_generate_and_explore_data()
 
