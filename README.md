@@ -79,15 +79,15 @@ The network security examples help make these concepts concrete, but the techniq
 
 Windows:
 ```cmd
-git clone https://github.com/LiteObject/scikit-learn-security-tutorial.git
-cd scikit-learn-security-tutorial
+git clone https://github.com/LiteObject/scikit-learn-tutorial.git
+cd scikit-learn-tutorial
 setup_windows.bat
 ```
 
 Mac/Linux:
 ```bash
-git clone https://github.com/LiteObject/scikit-learn-security-tutorial.git
-cd scikit-learn-security-tutorial
+git clone https://github.com/LiteObject/scikit-learn-tutorial.git
+cd scikit-learn-tutorial
 chmod +x setup_unix.sh
 ./setup_unix.sh
 ```
