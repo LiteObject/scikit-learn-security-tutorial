@@ -12,15 +12,18 @@ Here's how simple it is:
 
 ```python
 from sklearn.ensemble import RandomForestClassifier
+import numpy as np
 
 # Create a model
 model = RandomForestClassifier()
 
-# Train it with your data
-model.fit(training_data, labels)
+# Train it with your data (features must be numerical arrays)
+# training_features: 2D array where each row is a device, each column is a feature
+# training_labels: 1D array of device types (0=Router, 1=Server, etc.)
+model.fit(training_features, training_labels)
 
-# Make predictions
-prediction = model.predict(new_data)
+# Make predictions on new data
+prediction = model.predict(new_features)
 ```
 
 That's it. No PhD required.
