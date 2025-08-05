@@ -52,7 +52,7 @@ features = [
 features = [
     3,      # Number of bedrooms
     2,      # Number of bathrooms
-    29,     # Age of house (2024 - 1995)
+    30,     # Age of house (2025 - 1995)
     1,      # Has garage (1=yes, 0=no)
     1,      # Near school (1=yes, 0=no)
     1500    # Square footage
