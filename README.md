@@ -66,6 +66,7 @@ In this tutorial, you'll learn scikit-learn by building models that analyze netw
 The network security examples help make these concepts concrete, but the techniques work for any domain - spam detection, stock prediction, medical diagnosis, etc.
 
 **New to machine learning?** Check out the guides in the `docs/` folder first. They explain the basics without the jargon:
+- [Training Features and Labels](docs/training-features-and-labels.md) - understand the data format ML needs
 - [Supervised vs Unsupervised Learning](docs/supervised-vs-unsupervised.md) 
 - [Classification vs Regression](docs/classification-vs-regression.md)
 - [Feature Engineering](docs/feature-engineering.md)
@@ -193,6 +194,7 @@ The patterns you learn here are universal - once you understand scikit-learn wit
 ## Background reading
 
 **New to machine learning?**
+- [Training Features and Labels](docs/training-features-and-labels.md) - understand the data format ML needs
 - [Supervised vs Unsupervised Learning](docs/supervised-vs-unsupervised.md) - explains the basic types
 - [Classification vs Regression](docs/classification-vs-regression.md) - when to use each approach
 - [Feature Engineering](docs/feature-engineering.md) - how to prepare your data
